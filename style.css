@@ -1,0 +1,151 @@
+/*mise en forme Générale*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #000;
+}
+/* mise en forme Header*/
+#parent1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -15px;
+  padding-left: 0;
+}
+
+.logo {
+  width: 80px;
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin-top: -40px;
+  margin-right: 20px;
+}
+
+nav ul li {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding-left: 45px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav ul a:hover {
+  color: #0065fc;
+}
+
+.inscription {
+  color: #0065fc;
+}
+
+#parent2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  line-height: 10px;
+}
+
+#parent2 h1 {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#parent2 p {
+  font-family: "Raleway", arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+form {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  height: 30px;
+}
+
+form input {
+  border: 1px solid #f2f2f2;
+}
+
+form i {
+  background-color: #f2f2f2;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+form button {
+  background-color: #0065fc;
+  font-family: "Raleway", Arial, sans-serif;
+  color: #fff;
+  border: 1px solid #f2f2f2;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.localisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000c;
+  font-size: 0.8em;
+}
+
+#filtres {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+#filtres ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#filtres li {
+  margin-left: 10px;
+  padding-left: 15px;
+  border: 2px solid #f2f2f2;
+  height: 30px;
+  border-radius: 80px;
+}
+
+#filtres ul a {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 0.8em;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#filtres i {
+  background-color: #deebff;
+  width: 35px;
+  height: 35px;
+  border-radius: 80px;
+  text-align: center;
+}
+
+#parent3 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -20px;
+}
+
+/*Mise en forme Hebergements*/
+
+/*Mise en forme Populaire*/
+
+/*Mise en forme Activitées*/
+
+/*Mise en forme Footer*/
