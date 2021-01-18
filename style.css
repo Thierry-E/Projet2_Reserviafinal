@@ -1,9 +1,11 @@
 /*mise en forme Générale*/
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 1em;
   color: #000;
+  width: 90%;
+  margin: auto;
 }
 /* mise en forme Header*/
 #parent1 {
@@ -27,7 +29,6 @@ nav ul {
 }
 
 nav ul li {
-  font-family: "Raleway", Arial, sans-serif;
   font-size: 0.8em;
   font-weight: 600;
   padding-left: 45px;
@@ -54,13 +55,11 @@ nav ul a:hover {
 }
 
 #parent2 h1 {
-  font-family: "Raleway", Arial, sans-serif;
   font-size: 1.2em;
   font-weight: 600;
 }
 
 #parent2 p {
-  font-family: "Raleway", arial, sans-serif;
   font-size: 0.8em;
   font-weight: normal;
 }
@@ -86,7 +85,6 @@ form i {
 
 form button {
   background-color: #0065fc;
-  font-family: "Raleway", Arial, sans-serif;
   color: #fff;
   border: 1px solid #f2f2f2;
   border-top-right-radius: 10px;
@@ -114,29 +112,25 @@ form button {
 
 #filtres li {
   margin-left: 15px;
+  border: 2px solid #f2f2f2;
+  border-radius: 80px;
 }
 
 #filtres ul a {
-  font-family: "Raleway", Arial, sans-serif;
   font-size: 0.8em;
   color: #000;
   font-weight: bold;
   text-decoration: none;
 }
 
+.eco {
+  color: #0065fc;
+}
+
 #filtres i {
   background-color: #deebff;
   width: 35px;
   height: 35px;
-  border-radius: 80px;
-}
-
-.eco {
-  padding-top: 10px;
-  padding-left: 2px;
-  border: 2px solid #f2f2f2;
-  width: 200px;
-  height: 30px;
   border-radius: 80px;
 }
 
@@ -147,7 +141,58 @@ form button {
 }
 
 /*Mise en forme Hebergements*/
+#section1 {
+  display: flex;
+}
 
+#hebergements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  width: 64%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 25px;
+}
+
+.carte {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photo-heb {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 25px 25px 0 0;
+}
+
+.photo-pop {
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+}
+.carte-heb {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.afficher {
+  text-decoration: none;
+  color: #000;
+  margin: 20px;
+}
+
+#populaires {
+  background-color: #f2f2f2;
+  width: 35%;
+}
 /*Mise en forme Populaire*/
 
 /*Mise en forme Activitées*/
