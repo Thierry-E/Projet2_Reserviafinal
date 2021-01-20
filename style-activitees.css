@@ -1,0 +1,64 @@
+/*Mise en forme des activitées*/
+
+/*Mise en place de la section activitées*/
+#section2{
+    display: flex;
+    width: 1500px;
+    height: 800px;
+    background-color: brown;
+}
+
+/*Fin mise en place dela section activitées*/
+
+
+/*Mise en place des cartes*/
+.partie1{
+    background-color: #fff;
+    width: 300px;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 2px #f2f2f2;
+    margin-top: 80px;
+    margin-left: -200px;
+}
+
+.pomegues{
+    background-color: #fff;
+    width: 300px;
+    height: 150px;
+}
+
+.activite2{
+    background-color: #fff;
+    width: 300px;
+    height: 150px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 2px #f2f2f2;
+    margin-top: 50px;
+}
+
+.partie3{
+    display: none;
+}
+
+/*Fin mise en place des cartes*/
+
+
+/*Mise en forme des photos*/
+.photo-haute{
+    width: 300px;
+    height: 460px;
+    border-radius: 25px 25px 0 0;
+}
+
+.photo-large{
+    display: none;
+}
+
+/*Fin mise en forme des photos*//
+
+
+
+
+/*Fin mise en forme des activitées*/
