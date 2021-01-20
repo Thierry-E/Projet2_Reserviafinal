@@ -1,0 +1,98 @@
+/*Mise en forme section1*/
+#section1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+/*Fin de mise en formesection1*/
+
+/*Mise en forme partie Hébergement*/
+
+/*Placement section hébergemnts*/
+
+#hebergements {
+  background-color: #f2f2f2;
+  width: 1100px;
+  height: 710px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+/*Mise en forme du titre*/
+#hebergements h2 {
+  margin-left: 25px;
+}
+/*Fin mise en forme du titre*/
+
+/*Mise en forme des cartes*/
+
+.carte-heb {
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: #fff;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+}
+/*Fin mise en forme des cartes
+
+/*Redimensionement des photos*/
+.photo-heb {
+  width: 300px;
+  height: 130px;
+  border-radius: 25px 25px 0 0;
+}
+/*Fin redimensionement des photos*/
+
+/*Mise en placebouton Afficher*/
+.afficher {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/*Fin mise en place bouton afficher*/
+
+/*Fin placement section hébergemlent*/
+
+/*Mise en forme partie Populaires*/
+
+/*Placement section populaires*/
+#populaires {
+  background-color: #f2f2f2;
+  width: 380px;
+  height: 630px;
+  border-radius: 25px;
+  padding: 40px;
+}
+/*Fin placement section populaires*/
+
+/*Mise en place titre populaire*/
+#populaires h2 {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+/*Fin mise en place titre popualire*/
+
+/*Mise en forme des cartes*/
+.carte-pop {
+  display: flex;
+  background-color: #fff;
+  width: 330px;
+  height: 110px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+}
+/*Fin mise en forme des cartes*/
+
+/*Redimensionement des photos*/
+.photo-pop {
+  width: 110px;
+  height: 110px;
+  border-radius: 25px 0 0 25px;
+}
+/*Fin redimensionement des photos*/
