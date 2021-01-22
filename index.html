@@ -13,10 +13,7 @@
       src="https://kit.fontawesome.com/557d2394aa.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" type="text/css" href="style-header.css" />
-    <link rel="stylesheet" type="text/css" href="style-hebpop.css" />
-    <link rel="stylesheet" type="text/css" href="style-activitees.css" />
-    <link rel="stylesheet" type="text/css" href="style-footer.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
   <body>
@@ -69,10 +66,10 @@
 
       <div id="parent3">
         <div id="info">
-          <p>
-            <i class="fas fa-info icone info"></i>Plus de 500 logements sont
-            disponibles dans cette ville
-          </p>
+          <i class="fas fa-info icone info"></i>
+        </div>
+        <div class="texte-info">
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
       </div>
     </header>
@@ -91,12 +88,13 @@
               alt="cannebière"
               class="photo-heb"
             />
-            <p>Auberge de la Cannebière</p>
+            <p class="nom">Auberge de la Cannebière</p>
             <p>Nuit à partir de 25€</p>
-            <i class="fas fa-star"></i
-            ><i class="fas fa-star etoile-bleue etoileg-grise"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i>
+            <span class="etoile-bleue"
+              ><i class="fas fa-star"></i
+              ><i class="fas fa-star etoile-bleue etoileg-grise"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i></span
+            ><span class="etoile-grise"><i class="fas fa-star"></i></span>
           </div>
           <div class="carte-heb">
             <img
@@ -104,11 +102,13 @@
               class="photo-heb"
               alt="hotel du port"
             />
-            <p>Hôtel du port</p>
+            <p class="nom">Hôtel du port</p>
             <p>Nuit à partir de 52€</p>
-            <i class="fas fa-star etoile-bleue etoileg-grise"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <span class="etoile-bleue"
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i
+            ></span>
           </div>
           <div class="carte-heb">
             <img
@@ -116,11 +116,12 @@
               class="photo-heb"
               alt="hotel des mouettes"
             />
-            <p>Hôtel Les mouettes</p>
+            <p class="nom">Hôtel Les mouettes</p>
             <p>Nuit à partir de 76€</p>
-            <i class="fas fa-star etoile-bleue etoileg-grise"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <span class="etoile-bleue"
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i></span
+            ><span class="etoile-grise"><i class="fas fa-star"></i></span>
           </div>
           <div class="carte-heb">
             <img
@@ -128,11 +129,14 @@
               class="photo-heb"
               alt="hotel de la mer"
             />
-            <p>Hôtel de la mer</p>
+            <p class="nom">Hôtel de la mer</p>
             <p>Nuit à partir de 46€</p>
-            <i class="fas fa-star etoile-bleue etoileg-grise"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <span class="etoile-bleue"
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i></span
+            ><span class="etoile-grise"
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+            ></span>
           </div>
           <div class="carte-heb">
             <img
@@ -140,11 +144,12 @@
               class="photo-heb"
               alt="auberge-panier"
             />
-            <p>Auberge Le Panier</p>
+            <p class="nom">Auberge Le Panier</p>
             <p>Nuit à partir de 23€</p>
-            <i class="fas fa-star etoile-bleue etoileg-grise"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <span class="etoile-bleue"
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i></span
+            ><span class="etoile-grise"><i class="fas fa-star"></i></span>
           </div>
           <div class="carte-heb">
             <img
@@ -152,18 +157,22 @@
               class="photo-heb"
               alt="chez-amina"
             />
-            <p>Hôtel Chez Amina</p>
+            <p class="nom">Hôtel Chez Amina</p>
             <p>Nuit à partir de 96€</p>
-            <i class="fas fa-star etoile-bleue etoileg-grise"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i
-            ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <span class="etoile-bleue"
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i
+            ></span>
           </div>
         </div>
-        <a href="#" class="afficher">Afficher plus</a>
+        <div id="bouton">
+          <a href="#" class="afficher">Afficher plus</a>
+        </div>
       </section>
 
       <section id="populaires">
-        <h2>Les plus populaires</h2>
+        <h2>Les plus populaires<i class="fas fa-chart-line fleche-pop"></i></h2>
         <div class="carte-pop">
           <img
             src="images/hebergements/soleil-du-matin.jpg"
@@ -171,15 +180,17 @@
             alt="soleil du matin"
           />
           <div class="description">
-            <p>Hôtel Le soleil du matin</p>
+            <p class="nom-pop">Hôtel Le soleil du matin</p>
             <p>Nuit à partir de 128€</p>
-            <p>
-              <span class="etoile-bleue"
-                ><i class="fas fa-star"></i> <i class="fas fa-star"></i
-                ><i class="fas fa-star"></i><i class="fas fa-star"></i
-                ><i class="fas fa-star"></i
-              ></span>
-            </p>
+            <div class="etoiles">
+              <p>
+                <span class="etoile-bleue"
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i
+                ></span>
+              </p>
+            </div>
           </div>
         </div>
         <div class="carte-pop">
@@ -188,24 +199,39 @@
             class="photo-pop"
             alt="coeur de l'eau"
           />
-          <p>Au coeur de l'eau</p>
-          <p>Chambres d'hôtes</p>
-          <p>Nuit à partir de 71</p>
-          <i class="fas fa-star etoile-bleue etoileg-grise"></i
-          ><i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <div class="description">
+            <p class="nom-pop">Au coeur de l'eau Chambres d'hôtes</p>
+            <p>Nuit à partir de 71€</p>
+            <div class="etoiles">
+              <p>
+                <span class="etoile-bleue"
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i></span
+                ><span class="etoile-grise"><i class="fas fa-star"></i></span>
+              </p>
+            </div>
+          </div>
         </div>
+
         <div class="carte-pop">
           <img
             src="images/hebergements/tout-bleu-et-blanc.jpg"
             class="photo-pop"
             alt="tout bleu et blanc"
           />
-          <p>Hôtel Tout bleu et Blanc</p>
-          <p>Nuit à partir de 68€</p>
-          <i class="fas fa-star etoile-bleue etoileg-grise"></i
-          ><i class="fas fa-star"></i><i class="fas fa-star"></i
-          ><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <div class="description">
+            <p class="nom-pop">Hôtel Tout bleu et Blanc</p>
+            <p>Nuit à partir de 68€</p>
+
+            <div class="etoiles">
+              <p>
+                <span class="etoile-bleue"
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i></span
+                ><span class="etoile-grise"><i class="fas fa-star"></i></span>
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
