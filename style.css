@@ -14,6 +14,7 @@ body {
   display: flex;
   justify-content: flex-start;
   margin-top: 5px;
+  margin-bottom: -40px;
   padding-left: 0;
 }
 
@@ -24,12 +25,18 @@ body {
 /*Fin mise en place logo*/
 
 /*Mise en place navigation*/
+.inscription {
+  font-weight: bold;
+  margin-left: 910px;
+  margin-bottom: 25px;
+}
+
 nav ul {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
   margin-top: -40px;
-  margin-right: 20px;
+  margin-right: 130px;
 }
 
 nav ul li {
@@ -56,7 +63,7 @@ nav ul a:hover {
 #parent2 {
   display: flex;
   justify-content: flex-start;
-  margin-top: 30px;
+  margin-bottom: 10px;
   line-height: 10px;
 }
 
@@ -272,7 +279,7 @@ form button {
   padding-left: 10px;
   line-height: 10px;
 }
-/*Fin mise ne forme des textes et étoiles hébergemen  */
+/*Fin mise ne forme des textes et étoiles hébergements*/
 
 /*Fin placement section hébergemlent*/
 

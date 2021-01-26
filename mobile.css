@@ -1,5 +1,68 @@
 @media (max-width: 576px) {
+  /*Mise en place header*/
+
+  #parent1 {
+    margin-left: 15px;
+  }
+
+  .inscription {
+    margin-left: 140px;
+    margin-top: -50px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 80px;
+  }
+
+  nav ul {
+    font-size: 1.2em;
+    padding-top: 60px;
+    padding-left: 290px;
+  }
+
+  nav ul a {
+    text-decoration: underline;
+  }
+
+  #parent2 h1 {
+    font-size: 1.5em;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #parent2 p {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  form {
+    justify-content: center;
+    padding-top: 5px;
+  }
+  #filtres p {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 15px;
+  }
+
+  #filtres ul {
+    flex-wrap: wrap;
+    padding-top: 35px;
+  }
+
+  #parent3 {
+    padding-left: 15px;
+  }
+  .texte-info {
+    font-size: 1.05em;
+  }
+
+  /* Fin mise en place header*/
+
   /*Mise en place hebergemnts et populaires*/
+
   #section1 {
     flex-direction: column-reverse;
   }
@@ -12,6 +75,7 @@
   #hebergements {
     width: 100%;
     flex-direction: column;
+    justify-content: space-around;
     background-color: #fff;
   }
 
@@ -26,29 +90,22 @@
 
   #populaires {
     width: 68%;
-    padding-bottom: 5px;
   }
 
   #populaires h2 {
-    margin-left: -40px;
-    margin-top: -15px;
   }
 
   .fleche-pop {
-    padding-left: 200px;
-  }
-
-  .carte-pop {
-    margin-left: -55px;
-    margin-top: -20px;
-    margin-bottom: 50px;
+    justify-content: space-between;
   }
 
   /*Fin mise en place hebergements et populaires */
 
   /*Mise en place activitées*/
+
   #section2 {
     flex-direction: column;
+    justify-content: space-around;
     width: 100%;
   }
 
@@ -58,25 +115,24 @@
 
   .partie1 {
     width: 90%;
-    margin-right: 2px;
   }
 
   .partie2 {
     width: 90%;
-    margin-top: 30px;
-    margin-right: 40px;
+    padding-top: 40px;
+    margin-right: 50px;
   }
 
   .partie3 {
     width: 90%;
-    margin-right: 40px;
-    margin-top: 30px;
+    padding-top: 30px;
+    margin-right: 50px;
   }
 
   .partie4 {
     width: 90%;
-    margin-top: 30px;
-    margin-right: 40px;
+    padding-top: 40px;
+    margin-right: 50px;
   }
 
   /*Fin de mise en place activitées*/
@@ -84,9 +140,7 @@
   /*Mise en place footer*/
 
   footer {
-    width: 100%;
     flex-direction: column;
-    justify-items: center;
   }
 
   #a-propos {
