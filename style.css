@@ -122,6 +122,7 @@ form i {
 
 .localisation {
   display: flex;
+  background-color: #f2f2f2;
   justify-content: center;
   align-items: center;
   color: #000c;
